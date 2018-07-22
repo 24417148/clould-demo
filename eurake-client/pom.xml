@@ -44,10 +44,15 @@
     </dependency>
 
     <!--此版本springcloud 使用@HystricCommand 需引入此jar-->
-    <dependency>
+   <!-- <dependency>
       <groupId>com.netflix.hystrix</groupId>
       <artifactId>hystrix-javanica</artifactId>
       <version>RELEASE</version>
+    </dependency>-->
+
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
     </dependency>
 
   </dependencies>
