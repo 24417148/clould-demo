@@ -42,6 +42,14 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <!--此版本springcloud 使用@HystricCommand 需引入此jar-->
+    <dependency>
+      <groupId>com.netflix.hystrix</groupId>
+      <artifactId>hystrix-javanica</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+
   </dependencies>
 
   <dependencyManagement>
